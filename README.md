@@ -1,3 +1,5 @@
+Team Members: Le'ale Addison, Khandie Anijah-Obi, Karis Lewis
+
 Overview:
 This project will analyze Billboard Hot 100 chart data from 1958–2017 to explore patterns in musical success — specifically comparing artists who had only one major hit (“one-hit wonders”) to those with multiple recurring hits (“superstars”). Using data science techniques, I’ll examine differences in chart performance, longevity, and how these patterns evolved over time.
 
