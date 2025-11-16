@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# loading the dataset
+#loading the dataset
 df = pd.read_csv("hotstuff.csv")
 
 # cleaning artist names by removing featured artists and extra info
@@ -48,3 +48,13 @@ plt.xlabel("Year")
 plt.legend(title="Performer Type")
 plt.tight_layout()
 plt.show()
+
+# Counting total unique songs, artists, and chart entries
+total_songs = df['Song'].nunique()
+print(f"Total unique songs analyzed: {total_songs}")
+total_artists = df['Performer'].nunique()
+print(f"Total unique artists analyzed: {total_artists}")
+total_chart_entries = len(df)
+print(f"Total chart entries (including repeats): {total_chart_entries}")
+
+
