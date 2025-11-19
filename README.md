@@ -9,7 +9,7 @@ Compare their average chart rankings and time spent on the charts.
 Visualize how the prevalence of one-hit wonders and superstars has changed across decades.
 
 Data Source:
-Billboard Hot 100 dataset (1958–2017) from data.world/kcmillersean.
+Billboard Hot 100 dataset (1958–2020) from data.world/kcmillersean.
 
 Tools & Methods:
 Python (pandas, matplotlib, seaborn) for data cleaning, analysis, and visualization.
